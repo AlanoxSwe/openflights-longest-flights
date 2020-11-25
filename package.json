@@ -1,0 +1,22 @@
+{
+  "name": "air",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-salt": "^1.1.0",
+    "mocha": "^8.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "fast-sort": "^2.2.0",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.0"
+  }
+}
